@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+        <listener class-name="resources.ExtentReporterNG"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+  <test name="Test">
+  	<packages>
+  	<!-- <package name="com.google.apis"></package>
+  
+  	<package name="io.restassured.assertion"></package>
+  		 -->
+  	</packages>
+    <classes>
+       
+        <class name="io.restassured.itest.RootPathITest"/>
+         <!--
+      <class name="TestFramework.basics4"/>
+      <class name="TestFramework.basics3"/>
+      <class name="TestFramework.basics2"/>
+      <class name="TestFramework.AppTest"/>
+      <class name="TestFramework.basics"/>
+    
+      <class name="TestFramework.basics8"/>
+       <class name="TestFramework.basics7"/>
+      <class name="TestFramework.basics6"/>
+       -->
+      <class name="TestFramework.basics5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
