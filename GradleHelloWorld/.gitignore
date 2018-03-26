@@ -1,0 +1,10 @@
+.gradle
+.settings
+*.class
+*.tar
+*.zip
+*.jar
+build/reports/*
+build/test-results/*
+build/tmp/*
+
